@@ -1,0 +1,17 @@
+.body {
+    .background {
+        background:rgb(31, 117, 9);
+        animation: 1s infinite alternate ease-out breathing-color--green;
+    }
+}
+
+@keyframes breathing-color--green {
+    from
+    {
+        background-color: rgb(31, 117, 9);
+    }
+    to
+    {
+        background-color: rgb(7, 25, 4);
+    }
+}
